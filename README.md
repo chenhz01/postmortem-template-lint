@@ -2,6 +2,8 @@
 
 A stdlib-only linter that checks blameless postmortem reports before you publish them. It verifies required sections (Timeline, Root Cause, Action Items, Impact), flags blame-oriented language, and catches action items without owners. If you ship incident reviews and want them consistent and blame-free, this is for you; otherwise skip it.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Postmortems drift. Teams adopt a template, then reports quietly lose the timeline, action items lose owners, and blame language ("she failed", "human error") creeps back in — undermining the blameless culture the template was meant to enforce. Reviews catch this inconsistently, by hand, per reader.
